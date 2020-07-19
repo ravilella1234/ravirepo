@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SuiteD" duration-ms="15028" started-at="2019-10-04T01:11:59Z" finished-at="2019-10-04T01:12:14Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="15028" started-at="2019-10-04T01:11:59Z" finished-at="2019-10-04T01:12:14Z">
+      <class name="suiteD.TestD3">
+        <test-method status="PASS" signature="testD3()[pri:0, instance:suiteD.TestD3@6d4b1c02]" name="testD3" duration-ms="5002" started-at="2019-10-04T01:12:09Z" finished-at="2019-10-04T01:12:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testD3 -->
+        <test-method status="PASS" signature="endMethod()[pri:0, instance:suiteD.TestD3@6d4b1c02]" name="endMethod" is-config="true" duration-ms="1" started-at="2019-10-04T01:12:14Z" finished-at="2019-10-04T01:12:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endMethod -->
+      </class> <!-- suiteD.TestD3 -->
+      <class name="suiteD.TestD2">
+        <test-method status="PASS" signature="testD2()[pri:0, instance:suiteD.TestD2@7cd62f43]" name="testD2" duration-ms="5004" started-at="2019-10-04T01:12:04Z" finished-at="2019-10-04T01:12:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testD2 -->
+        <test-method status="PASS" signature="endMethod()[pri:0, instance:suiteD.TestD2@7cd62f43]" name="endMethod" is-config="true" duration-ms="0" started-at="2019-10-04T01:12:09Z" finished-at="2019-10-04T01:12:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endMethod -->
+      </class> <!-- suiteD.TestD2 -->
+      <class name="suiteD.TestD1">
+        <test-method status="PASS" signature="testD1()[pri:0, instance:suiteD.TestD1@6a41eaa2]" name="testD1" duration-ms="5005" started-at="2019-10-04T01:11:59Z" finished-at="2019-10-04T01:12:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testD1 -->
+        <test-method status="PASS" signature="endMethod()[pri:0, instance:suiteD.TestD1@6a41eaa2]" name="endMethod" is-config="true" duration-ms="1" started-at="2019-10-04T01:12:04Z" finished-at="2019-10-04T01:12:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endMethod -->
+      </class> <!-- suiteD.TestD1 -->
+    </test> <!-- Test -->
+  </suite> <!-- SuiteD -->
+  <suite name="My Suite" duration-ms="0" started-at="2019-10-04T01:12:14Z" finished-at="2019-10-04T01:12:14Z">
+    <groups>
+    </groups>
+  </suite> <!-- My Suite -->
+  <suite name="SuiteC" duration-ms="15152" started-at="2019-10-04T01:11:44Z" finished-at="2019-10-04T01:11:59Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="15152" started-at="2019-10-04T01:11:44Z" finished-at="2019-10-04T01:11:59Z">
+      <class name="suiteC.TestC1">
+        <test-method status="PASS" signature="testC1()[pri:0, instance:suiteC.TestC1@cc285f4]" name="testC1" duration-ms="5005" started-at="2019-10-04T01:11:54Z" finished-at="2019-10-04T01:11:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testC1 -->
+        <test-method status="PASS" signature="endMethod()[pri:0, instance:suiteC.TestC1@cc285f4]" name="endMethod" is-config="true" duration-ms="1" started-at="2019-10-04T01:11:59Z" finished-at="2019-10-04T01:11:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endMethod -->
+      </class> <!-- suiteC.TestC1 -->
+      <class name="suiteC.TestC2">
+        <test-method status="PASS" signature="testC2()[pri:0, instance:suiteC.TestC2@c038203]" name="testC2" duration-ms="5004" started-at="2019-10-04T01:11:49Z" finished-at="2019-10-04T01:11:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testC2 -->
+        <test-method status="PASS" signature="endMethod()[pri:0, instance:suiteC.TestC2@c038203]" name="endMethod" is-config="true" duration-ms="2" started-at="2019-10-04T01:11:54Z" finished-at="2019-10-04T01:11:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endMethod -->
+      </class> <!-- suiteC.TestC2 -->
+      <class name="suiteC.TestC3">
+        <test-method status="PASS" signature="testC3()[pri:0, instance:suiteC.TestC3@29ee9faa]" name="testC3" duration-ms="5061" started-at="2019-10-04T01:11:44Z" finished-at="2019-10-04T01:11:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testC3 -->
+        <test-method status="PASS" signature="endMethod()[pri:0, instance:suiteC.TestC3@29ee9faa]" name="endMethod" is-config="true" duration-ms="1" started-at="2019-10-04T01:11:49Z" finished-at="2019-10-04T01:11:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endMethod -->
+      </class> <!-- suiteC.TestC3 -->
+    </test> <!-- Test -->
+  </suite> <!-- SuiteC -->
+</testng-results>

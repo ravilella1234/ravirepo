@@ -1,0 +1,10 @@
+Hub setup -> port 4444. Fired on hub machine
+java -jar D:\Softwares\Selenium_Jars\selenium-server-standalone-3.11.0.jar -role hub
+
+
+Node 1 setup -> Fired on node
+java -Dwebdriver.gecko.driver="D:\Browser_Drivers\geckodriver.exe" -Dwebdriver.chrome.driver="D:\Browser_Drivers\chromedriver.exe" -Dwebdriver.ie.driver="D:\Browser_Drivers\IEDriverServer.exe" -jar D:\Softwares\Selenium_Jars\selenium-server-standalone-3.11.0.jar -role node -nodeConfig C:\Users\DELL\Desktop\node1.json 
+
+
+Node 2 setup -> Fired on node
+java -Dwebdriver.gecko.driver="D:\Browser_Drivers\geckodriver.exe" -Dwebdriver.chrome.driver="D:\Browser_Drivers\chromedriver.exe" -Dwebdriver.ie.driver="D:\Browser_Drivers\IEDriverServer.exe" -jar D:\Softwares\Selenium_Jars\selenium-server-standalone-3.11.0.jar -role node -nodeConfig C:\Users\DELL\Desktop\node2.json
