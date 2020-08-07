@@ -28,9 +28,9 @@ public class ExceptionDemo
 			} 
 			catch (Exception e) 
 			{
-				//e.printStackTrace();
+				e.printStackTrace();
 				//System.out.println(e);
-				System.out.println("denominator value should be greater than zero....");
+				//System.out.println("denominator value should be greater than zero....");
 			}	
 		}
 	}
