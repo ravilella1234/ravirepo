@@ -14,12 +14,25 @@ public class BaseTest
 	public static WebDriver driver;
 	public static FileInputStream fis;
 	public static Properties p;
+	public static Properties parentProp;
+	public static Properties childProp;
 	
 	public static void init() throws Exception
 	{
-		fis = new FileInputStream(projectPath + "//data.properties" );
+		 fis = new FileInputStream(projectPath + "//data.properties" );
 		 p = new Properties();
 		 p.load(fis);
+		 
+		fis = new FileInputStream(projectPath + "//environment.properties");
+		parentProp = new Properties();
+		parentProp.load(fis);
+		String e = parentProp.getProperty("env");
+		System.out.println(e);
+		
+		fis = new FileInputStream(projectPath + "//"+ e + ".properties");
+		childProp = new Properties();
+		childProp.load(fis);
+		System.out.println(childProp.getProperty("amazonurl"));
 	}
 	
 	
@@ -40,7 +53,8 @@ public class BaseTest
 	
 	public static void navigateUrl(String url)
 	{
-		driver.get(p.getProperty(url));
+		//driver.get(childProp.getProperty(url));
+		driver.navigate().to(childProp.getProperty(url));
 	}
 
 }
