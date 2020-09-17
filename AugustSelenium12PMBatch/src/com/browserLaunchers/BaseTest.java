@@ -16,6 +16,7 @@ import org.openqa.selenium.firefox.ProfilesIni;
 
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
+import com.relevantcodes.extentreports.LogStatus;
 
 public class BaseTest 
 {
@@ -132,6 +133,31 @@ public class BaseTest
 		
 		return element;
 
+	}
+	
+	// ***************************** Verifications **************************
+	
+	
+	public static boolean isElementPresent(String expectedLink) 
+	{
+		String actualLink = driver.findElement(By.linkText("New Releases")).getText();
+		if(actualLink.equals(expectedLink))
+			return true;
+		else
+			return false;
+	}
+	
+	
+	//  ****************************  Reportings  *******************************
+	
+	public static void reportSuccess(String passMsg) 
+	{
+		test.log(LogStatus.PASS, passMsg);
+	}
+
+	public static void reportFailure(String failMsg) 
+	{
+		test.log(LogStatus.FAIL, failMsg);
 	}
 
 
