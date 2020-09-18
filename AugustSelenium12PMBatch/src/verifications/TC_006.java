@@ -20,7 +20,7 @@ public class TC_006 extends BaseTest
 		navigateUrl("amazonurl");
 		test.log(LogStatus.PASS, "Navigating the Url : " + childProp.getProperty("amazonurl"));
 		
-		String expectedLink = "New Releases";
+		String expectedLink = "New Release";
 		
 		if(!isElementPresent(expectedLink))
 			reportFailure("Both links are not eqaul..");
