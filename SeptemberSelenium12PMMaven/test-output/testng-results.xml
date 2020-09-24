@@ -1,101 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
-    <line>
-      <![CDATA[Clicked on Image Link]]>
-    </line>
   </reporter-output>
-  <suite name="RegressionSuite" duration-ms="203316" started-at="2020-09-23T13:01:38 IST" finished-at="2020-09-23T13:05:02 IST">
+  <suite name="Suite" duration-ms="120" started-at="2020-09-24T12:36:21 IST" finished-at="2020-09-24T12:36:21 IST">
     <groups>
     </groups>
-    <test name="RegressionTest" duration-ms="203316" started-at="2020-09-23T13:01:38 IST" finished-at="2020-09-23T13:05:02 IST">
-      <class name="com.project.SeptemberSelenium12PMMaven.LinksTesting1">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.project.SeptemberSelenium12PMMaven.LinksTesting1@10bbd20a]" name="setup" is-config="true" duration-ms="40384" started-at="2020-09-23T13:03:33 IST" finished-at="2020-09-23T13:04:13 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
+    <test name="Test" duration-ms="120" started-at="2020-09-24T12:36:21 IST" finished-at="2020-09-24T12:36:21 IST">
+      <class name="parallel.TestMethod">
+        <test-method status="PASS" signature="sampleTest1()[pri:0, instance:parallel.TestMethod@72b6cbcc]" name="sampleTest1" duration-ms="25" started-at="2020-09-24T12:36:21 IST" finished-at="2020-09-24T12:36:21 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="linktesting1()[pri:0, instance:com.project.SeptemberSelenium12PMMaven.LinksTesting1@10bbd20a]" name="linktesting1" duration-ms="1033" started-at="2020-09-23T13:04:13 IST" finished-at="2020-09-23T13:04:14 IST">
-          <reporter-output>
-            <line>
-              <![CDATA[Clicked on Image Link]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- linktesting1 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.project.SeptemberSelenium12PMMaven.LinksTesting1@10bbd20a]" name="tearDown" is-config="true" duration-ms="3808" started-at="2020-09-23T13:04:14 IST" finished-at="2020-09-23T13:04:18 IST">
+        </test-method> <!-- sampleTest1 -->
+        <test-method status="PASS" signature="sampleTest2()[pri:0, instance:parallel.TestMethod@72b6cbcc]" name="sampleTest2" duration-ms="25" started-at="2020-09-24T12:36:21 IST" finished-at="2020-09-24T12:36:21 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.project.SeptemberSelenium12PMMaven.LinksTesting1 -->
-      <class name="com.project.SeptemberSelenium12PMMaven.CheckBox1">
-        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.project.SeptemberSelenium12PMMaven.CheckBox1@64729b1e]" name="beforeMethod" is-config="true" duration-ms="42897" started-at="2020-09-23T13:02:43 IST" finished-at="2020-09-23T13:03:26 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="checkboxTest()[pri:0, instance:com.project.SeptemberSelenium12PMMaven.CheckBox1@64729b1e]" name="checkboxTest" duration-ms="1172" started-at="2020-09-23T13:03:26 IST" finished-at="2020-09-23T13:03:27 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkboxTest -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.project.SeptemberSelenium12PMMaven.CheckBox1@64729b1e]" name="afterMethod" is-config="true" duration-ms="5179" started-at="2020-09-23T13:03:27 IST" finished-at="2020-09-23T13:03:33 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- com.project.SeptemberSelenium12PMMaven.CheckBox1 -->
-      <class name="com.project.SeptemberSelenium12PMMaven.RadioButton1">
-        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.project.SeptemberSelenium12PMMaven.RadioButton1@48503868]" name="beforeMethod" is-config="true" duration-ms="38725" started-at="2020-09-23T13:04:18 IST" finished-at="2020-09-23T13:04:57 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="radioButtonTest()[pri:0, instance:com.project.SeptemberSelenium12PMMaven.RadioButton1@48503868]" name="radioButtonTest" duration-ms="1138" started-at="2020-09-23T13:04:57 IST" finished-at="2020-09-23T13:04:58 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- radioButtonTest -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.project.SeptemberSelenium12PMMaven.RadioButton1@48503868]" name="afterMethod" is-config="true" duration-ms="3930" started-at="2020-09-23T13:04:58 IST" finished-at="2020-09-23T13:05:02 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- com.project.SeptemberSelenium12PMMaven.RadioButton1 -->
-      <class name="com.project.SeptemberSelenium12PMMaven.TC_006">
-        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.project.SeptemberSelenium12PMMaven.TC_006@4e7dc304]" name="beforeMethod" is-config="true" duration-ms="54332" started-at="2020-09-23T13:01:38 IST" finished-at="2020-09-23T13:02:33 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="f()[pri:0, instance:com.project.SeptemberSelenium12PMMaven.TC_006@4e7dc304]" name="f" duration-ms="4388" started-at="2020-09-23T13:02:33 IST" finished-at="2020-09-23T13:02:37 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.project.SeptemberSelenium12PMMaven.TC_006@4e7dc304]" name="afterMethod" is-config="true" duration-ms="6221" started-at="2020-09-23T13:02:37 IST" finished-at="2020-09-23T13:02:43 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- com.project.SeptemberSelenium12PMMaven.TC_006 -->
-    </test> <!-- RegressionTest -->
-  </suite> <!-- RegressionSuite -->
+        </test-method> <!-- sampleTest2 -->
+      </class> <!-- parallel.TestMethod -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
