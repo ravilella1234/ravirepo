@@ -2,7 +2,6 @@ package com.project.SeptemberSelenium12PMMaven;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.IOException;
 import java.util.Date;
 import java.util.Properties;
 
@@ -36,6 +35,14 @@ public class BaseTest
 	public static Properties orProp;
 	public static ExtentReports report;
 	public static ExtentTest test;
+	public static String filePath;
+	
+	static
+	{
+		Date  dt = new Date();
+		filePath = dt.toString().replace(':', '_').replace(' ', '_');
+	}
+	
 	
 	public static void init() throws Exception
 	{
