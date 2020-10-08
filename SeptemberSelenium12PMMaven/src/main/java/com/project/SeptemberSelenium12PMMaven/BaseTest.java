@@ -62,7 +62,7 @@ public class BaseTest
 		fis = new FileInputStream(projectPath + "//"+ e + ".properties");
 		childProp = new Properties();
 		childProp.load(fis);
-		System.out.println(childProp.getProperty("amazonurl"));
+		//System.out.println(childProp.getProperty("amazonurl"));
 		
 		fis = new FileInputStream(projectPath + "//or.properties");
 		orProp = new Properties();
@@ -78,16 +78,16 @@ public class BaseTest
 	
 	public static void launch(String browser)
 	{
-		if(browser.equals("chrome"))
+		if(p.getProperty(browser).equals("chrome"))
 		{
-			System.setProperty("webdriver.chrome.driver", "C:\\Users\\DELL\\Desktop\\Drivers\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "C:\\Users\\DELL\\Desktop\\Sept Drivers\\chromedriver.exe");
 			ChromeOptions option = new ChromeOptions();
 			option.addArguments("user-data-dir=C:\\Users\\DELL\\AppData\\Local\\Google\\Chrome\\User Data\\Profile 13");
 			option.addArguments("--disable-notifications");
 			
 			driver = new ChromeDriver(option);
 		}
-		else if(browser.equals("firefox"))
+		else if(p.getProperty(browser).equals("firefox"))
 		{
 			System.setProperty("webdriver.gecko.driver", projectPath +"//drivers//geckodriver.exe");
 			ProfilesIni p = new ProfilesIni();
@@ -104,8 +104,8 @@ public class BaseTest
 	
 	public static void navigateUrl(String url)
 	{
-		//driver.get(childProp.getProperty(url));
-		driver.navigate().to(childProp.getProperty(url));
+		driver.get(childProp.getProperty(url));
+		//driver.navigate().to(childProp.getProperty(url));
 	}
 	
 	public static void elementClick(String locatorKey) 
