@@ -5,8 +5,8 @@
     <classes>
       <class name="pom.TC_007">
         <methods>
+          <include name="registration"/>
           <include name="startprocess"/>
-          <include name="loginTest"/>
           <include name="endProcess"/>
         </methods>
       </class> <!-- pom.TC_007 -->

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="18677" started-at="2020-10-08T07:32:43Z" finished-at="2020-10-08T07:33:02Z">
+  <suite name="Default suite" duration-ms="22212" started-at="2020-10-19T07:42:10Z" finished-at="2020-10-19T07:42:32Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="18677" started-at="2020-10-08T07:32:43Z" finished-at="2020-10-08T07:33:02Z">
+    <test name="Default test" duration-ms="22212" started-at="2020-10-19T07:42:10Z" finished-at="2020-10-19T07:42:32Z">
       <class name="pom.TC_007">
-        <test-method status="PASS" signature="startprocess()[pri:0, instance:pom.TC_007@6156496]" name="startprocess" is-config="true" duration-ms="9602" started-at="2020-10-08T07:32:43Z" finished-at="2020-10-08T07:32:53Z">
+        <test-method status="PASS" signature="startprocess()[pri:0, instance:pom.TC_007@6156496]" name="startprocess" is-config="true" duration-ms="11498" started-at="2020-10-19T07:42:10Z" finished-at="2020-10-19T07:42:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startprocess -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:pom.TC_007@6156496]" name="loginTest" duration-ms="8995" started-at="2020-10-08T07:32:53Z" finished-at="2020-10-08T07:33:02Z">
+        <test-method status="PASS" signature="registration()[pri:0, instance:pom.TC_007@6156496]" name="registration" duration-ms="10632" started-at="2020-10-19T07:42:22Z" finished-at="2020-10-19T07:42:32Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="endProcess()[pri:0, instance:pom.TC_007@6156496]" name="endProcess" is-config="true" duration-ms="1" started-at="2020-10-08T07:33:02Z" finished-at="2020-10-08T07:33:02Z">
+        </test-method> <!-- registration -->
+        <test-method status="PASS" signature="endProcess()[pri:0, instance:pom.TC_007@6156496]" name="endProcess" is-config="true" duration-ms="0" started-at="2020-10-19T07:42:32Z" finished-at="2020-10-19T07:42:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endProcess -->

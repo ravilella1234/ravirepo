@@ -18,12 +18,19 @@ public class TC_007 extends BaseTest
 	  navigateUrl("automationurl");
   }
   
-  @Test
+  @Test(enabled = false)
   public void loginTest() throws Exception 
   {
 	  LoginPage p = new LoginPage(driver);
 	  p.userLogin();
 	  Assert.assertEquals(p.getLoginError(), "Authentication failed.");
+  }
+  
+  @Test
+  public void registration() throws Exception
+  {
+	  CustomerRegistrationPage cust = new CustomerRegistrationPage(driver);
+	  cust.customerRegistration();
   }
 
   @AfterMethod

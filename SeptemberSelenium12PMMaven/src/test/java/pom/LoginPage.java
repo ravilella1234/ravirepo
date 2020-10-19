@@ -20,7 +20,7 @@ public class LoginPage
 
 	public void userLogin() throws Exception
 	{
-		Thread.sleep(3000);
+		//Thread.sleep(3000);
 		login.click();
 		emailAddress.sendKeys("qatest76565@gmail.com");
 		emailPassword.sendKeys("password");
