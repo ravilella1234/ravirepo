@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.project.SeptemberSelenium12PMMaven.BaseTest;
@@ -48,10 +49,14 @@ public class CustomerRegistrationPage extends BaseTest
 	
 	public void customerRegistration() throws InterruptedException
 	{
+		String userEmail = p.getProperty("firstname")+p.getProperty("lastname")+randomNum()+p.getProperty("domain");
 		signIn.click();		
+		
 			
 		waitforElement(custEmail,60,"visible");
-		custEmail.sendKeys("qatest8966@gmail.com");
+		
+		custEmail.sendKeys(userEmail);
+		System.out.println(userEmail);
 		
 		Submit.click();
 		
@@ -61,18 +66,19 @@ public class CustomerRegistrationPage extends BaseTest
 		FirstName.sendKeys("qa");
 		LastName.sendKeys("test");
 		custPassword.sendKeys("password");
-		DOB_day.sendKeys("10");
-		DOB_month.sendKeys("March");
-		DOB_year.sendKeys("2015");
+
+		selectOption(DOB_day, 10);
+		selectOption(DOB_month, 4);
+		selectOption(DOB_year, 6);
+		
 		Address_1.sendKeys("hyderabad");
 		City.sendKeys("hyderabad");
 		State.sendKeys("California");
 		Postcode.sendKeys("23456");
 		Country.sendKeys("United States");
 		Mobile_Phone.sendKeys("1234567890");
+		submitAccount.click();
 	}
-
-	
 
 	
 }

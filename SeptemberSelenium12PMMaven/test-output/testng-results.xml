@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="22212" started-at="2020-10-19T07:42:10Z" finished-at="2020-10-19T07:42:32Z">
+  <suite name="Default suite" duration-ms="32298" started-at="2020-10-20T07:22:20Z" finished-at="2020-10-20T07:22:53Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="22212" started-at="2020-10-19T07:42:10Z" finished-at="2020-10-19T07:42:32Z">
+    <test name="Default test" duration-ms="32298" started-at="2020-10-20T07:22:20Z" finished-at="2020-10-20T07:22:53Z">
       <class name="pom.TC_007">
-        <test-method status="PASS" signature="startprocess()[pri:0, instance:pom.TC_007@6156496]" name="startprocess" is-config="true" duration-ms="11498" started-at="2020-10-19T07:42:10Z" finished-at="2020-10-19T07:42:22Z">
+        <test-method status="PASS" signature="startprocess()[pri:0, instance:pom.TC_007@6156496]" name="startprocess" is-config="true" duration-ms="16294" started-at="2020-10-20T07:22:21Z" finished-at="2020-10-20T07:22:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startprocess -->
-        <test-method status="PASS" signature="registration()[pri:0, instance:pom.TC_007@6156496]" name="registration" duration-ms="10632" started-at="2020-10-19T07:42:22Z" finished-at="2020-10-19T07:42:32Z">
+        <test-method status="PASS" signature="registration()[pri:0, instance:pom.TC_007@6156496]" name="registration" duration-ms="15935" started-at="2020-10-20T07:22:37Z" finished-at="2020-10-20T07:22:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registration -->
-        <test-method status="PASS" signature="endProcess()[pri:0, instance:pom.TC_007@6156496]" name="endProcess" is-config="true" duration-ms="0" started-at="2020-10-19T07:42:32Z" finished-at="2020-10-19T07:42:32Z">
+        <test-method status="PASS" signature="endProcess()[pri:0, instance:pom.TC_007@6156496]" name="endProcess" is-config="true" duration-ms="0" started-at="2020-10-20T07:22:53Z" finished-at="2020-10-20T07:22:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endProcess -->

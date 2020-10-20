@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.util.Date;
 import java.util.Properties;
+import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.PropertyConfigurator;
@@ -20,6 +21,7 @@ import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.firefox.ProfilesIni;
 import org.openqa.selenium.io.FileHandler;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.relevantcodes.extentreports.ExtentReports;
@@ -206,6 +208,20 @@ public class BaseTest
 			wait.until(ExpectedConditions.visibilityOf(Locator));
 		}
 		
+	}
+	
+	public static void selectOption(WebElement locator, int index)
+	{
+		Select s = new Select(locator);
+		s.selectByIndex(index);
+	}
+	
+	
+	public static int randomNum() 
+	{
+		Random r =new Random();
+		int ran = r.nextInt(999999);
+		return ran;
 	}
 
 
